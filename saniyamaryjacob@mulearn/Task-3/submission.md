@@ -10,17 +10,17 @@ muid: saniyamaryjacob@mulearn
 
 \## 🔗 Repository Link  
 
-https://github.com/Zaniyahm/Shipyard-Foundations  
+https://github.com/Zaniyahm/Shipyard-Foundations
 
 
 
 \## 🌐 Live Website  
 
-https://zaniyahm.github.io/Shipyard-Foundations/  
+https://zaniyahm.github.io/Shipyard-Foundations/
 
 
 
 \## 🌐 Git Actions Link  
 
-https://github.com/Zaniyahm/Shipyard-Foundations/actions  
+https://github.com/Zaniyahm/Shipyard-Foundations/actions
 
