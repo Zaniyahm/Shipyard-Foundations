@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-first-app-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-first-app
+  template:
+    metadata:
+      labels:
+        app: my-first-app
+    spec:
+      containers:
+        - name: my-first-app
+          image: my-first-app:v1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80
+          env:
+            - name: STUDENT_NAME
+              value: "Saniya Mary Jacob"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-first-app-service
+spec:
+  type: NodePort
+  selector:
+    app: my-first-app
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30007
